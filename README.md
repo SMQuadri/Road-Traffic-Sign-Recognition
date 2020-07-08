@@ -1,8 +1,6 @@
 # Road-Traffic-Sign-Recognition
 
 ## Overview :
-This project is developed by me as part of an internship at a company.
-
 Traffic sign recognition is the process of automatically identifying which class the respective sign belongs to. The earlier Computer Vision techniques required lots of hard work in data processing and it took a lot of time to manually extract the features of the image. Instead, today deep learning techniques have become more popular for performing computer vision or image processing tasks. The goal of this project is to build a traffic sign recognition system for autonomous vehicles.
 ![trafficSR](https://user-images.githubusercontent.com/55687431/86936099-2da20900-c15b-11ea-991a-508e9b86ecc1.jpg)
 
@@ -38,7 +36,7 @@ The images used in this dataset are those of traffic signs. The images are class
 
 
 ## Steps to build the project :
-1) Project and environment setup.
+1) Setup the project and virtual environment.
 2) Install the required dependencies and the libraries in your virtual environment.
 3) Import the installed libraries.
 4) Interpret the data & fetch the path of the required directory using the os library.
@@ -52,7 +50,7 @@ The images used in this dataset are those of traffic signs. The images are class
 12) Add a dropout layer to this set to prevent model overfitting during training process.
 13) Now add one more convolution layer which takes the output of the previous layer as its input. We are doing this in order to extract all possible (even minute) features from the image. Here, as this layer is more far from the direct image we can increase the size of 'filters' and decrease the 'kernel_size' in the parameters.
 14) Simliar to the above layer instance, pool the convolution layer in step (13) using MaxPool.
-15) Add a dropout layer to it.
+15) Also, add a dropout layer to it.
 16) Now, add a Flatten layer to convert the feature matrix into a its vector representation.
 17) Implement the last layer of the CNN model i.e; the Dense layer (Fully Connected layer).
 18) Apply softmax application in only the last layer (i.e; dense layer) as we are implementing a multi classification problem.
@@ -62,3 +60,10 @@ The images used in this dataset are those of traffic signs. The images are class
 22) The next step is to implement the model architechture over the 'test.csv' dataset. This dataset contains the path of the image in the 'test' folder.
 23) Save the results of the prediction over the 'test.csv' dataset in a heirarchical data file (i.e; hdf5 format).
 24) The last step is to deploy the model. You can either do this by creating a flask application which renders an HTML template (OR) by creating a python file which contains a tkinter program & then deploy it on your local host.
+
+
+## Model Evaluation :
+The model achieved 97.77% accuracy on the validation set (random 20% subset of the training dataset) & 95.48 on the test dataset.
+
+
+## Project Demonstration :
