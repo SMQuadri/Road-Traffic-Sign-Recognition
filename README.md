@@ -1,7 +1,10 @@
 # Road-Traffic-Sign-Recognition
 
 ## Overview :
-This project was developed by me as part of an internship at a company. The goal of this project was to recognize the traffic signs on road.
+This project is developed by me as part of an internship at a company.
+
+Traffic sign recognition is the process of automatically identifying which class the respective sign belongs to. The earlier Computer Vision techniques required lots of hard work in data processing and it took a lot of time to manually extract the features of the image. Instead, today deep learning techniques have become more popular for performing computer vision or image processing tasks. The goal of this project is to build a traffic sign recognition system for autonomous vehicles.
+
 
 ## Dataset :
 German Traffic Sign Recognition Dataset (GTSRB) is an image classification dataset.
@@ -30,3 +33,6 @@ The images used in this dataset are those of traffic signs. The images are class
 -> keras (with tensorflow backend)
 
 -> tkinter (for deployment of the model)
+
+
+## 
