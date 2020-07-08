@@ -64,3 +64,12 @@ The images used in this dataset are those of traffic signs. The images are class
 
 ## Model Evaluation :
 The model achieved 97.09% accuracy on the validation set (random 20% subset of the training dataset) & 96.37% on the 'test.csv' dataset.
+
+
+
+# Repository Contents :
+1) Datasets Folder: Contains the link of the kaggle kernel from where the datasets can be downloaded.
+2) Project Demonstration.zip : This zip folder contains a video demonstrating the project execution. To view it you need to download the zip folder.
+3) Road Traffic Sign Recognition.ipynb : This notebook contains the model architechture and the code for predicting the new data.
+4) interface.py : This python file contains the tkinter program for deployment of the project on local host to create a GUI to the user.
+5) model_RTSR.h5 : This heirarchical data file contains the stored predicitions for the 'test.csv' dataset which is further used to load the model in 'interface.py'
