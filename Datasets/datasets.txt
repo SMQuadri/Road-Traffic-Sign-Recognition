@@ -1,4 +1,0 @@
-
-### The datasets used in this project are about 300MB in file size. There are about 50000 images of traffic signs. Hence I didn't upload them in this repository of mine. Instead they can be downloaded from the kaggle kernel mentioned below:
-
-https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
