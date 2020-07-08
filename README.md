@@ -63,7 +63,4 @@ The images used in this dataset are those of traffic signs. The images are class
 
 
 ## Model Evaluation :
-The model achieved 97.77% accuracy on the validation set (random 20% subset of the training dataset) & 95.48 on the test dataset.
-
-
-## Project Demonstration :
+The model achieved 97.09% accuracy on the validation set (random 20% subset of the training dataset) & 96.37% on the 'test.csv' dataset.
