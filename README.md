@@ -4,6 +4,8 @@
 This project is developed by me as part of an internship at a company.
 
 Traffic sign recognition is the process of automatically identifying which class the respective sign belongs to. The earlier Computer Vision techniques required lots of hard work in data processing and it took a lot of time to manually extract the features of the image. Instead, today deep learning techniques have become more popular for performing computer vision or image processing tasks. The goal of this project is to build a traffic sign recognition system for autonomous vehicles.
+![trafficSR](https://user-images.githubusercontent.com/55687431/86936099-2da20900-c15b-11ea-991a-508e9b86ecc1.jpg)
+
 
 
 ## Dataset :
