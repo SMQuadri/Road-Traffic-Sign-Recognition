@@ -66,6 +66,13 @@ The images used in this dataset are those of traffic signs. The images are class
 The model achieved 97.09% accuracy on the validation set (random 20% subset of the training dataset) & 96.37% on the 'test.csv' dataset.
 
 
+## Output :
+<img src="Demo%20Images/anaconda%20prompt.jpg">
+<img src="Demo%20Images/demo1.jpg">
+<img src="Demo%20Images/demo2.jpg">
+<img src="Demo%20Images/demo3.jpg">
+
+
 
 # Repository Contents :
 1) Datasets Folder: Contains the link of the kaggle kernel from where the datasets can be downloaded.
