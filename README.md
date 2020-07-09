@@ -66,11 +66,11 @@ The images used in this dataset are those of traffic signs. The images are class
 The model achieved 97.09% accuracy on the validation set (random 20% subset of the training dataset) & 96.37% on the 'test.csv' dataset.
 
 
-## Output :
-<img src="Demo%20Images/anaconda%20prompt.jpg">
-<img src="Demo%20Images/demo1.jpg">
-<img src="Demo%20Images/demo2.jpg">
-<img src="Demo%20Images/demo3.jpg">
+## Example Output :
+![anaconda prompt](https://user-images.githubusercontent.com/55687431/87024504-d782a380-c1f6-11ea-885b-f3a3f5d01807.JPG)
+![demo1](https://user-images.githubusercontent.com/55687431/87024626-fed97080-c1f6-11ea-8354-3513150e9d81.JPG)
+![demo2](https://user-images.githubusercontent.com/55687431/87024696-144e9a80-c1f7-11ea-8d81-bd6a96c300cb.JPG)
+![demo3](https://user-images.githubusercontent.com/55687431/87024767-2cbeb500-c1f7-11ea-9a9c-7e11f2b14fb1.JPG)
 
 
 
