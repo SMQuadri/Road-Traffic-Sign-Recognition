@@ -6,13 +6,13 @@ Traffic sign recognition is the process of automatically identifying which class
 
 
 
-## Dataset :
+## Datasets :
 German Traffic Sign Recognition Dataset (GTSRB) is an image classification dataset.
 The images used in this dataset are those of traffic signs. The images are classified into 43 different classes. The training set contains 39209 labeled images and the test set contains 12630 images.
 
 
 ## Environments used :
--> Anaconda Navigator (jupyter notebook and spyder)
+-> Anaconda (jupyter notebook and spyder)
 
 -> PyCharm
 
@@ -77,8 +77,8 @@ The model achieved 97.09% accuracy on the validation set (random 20% subset of t
 # Repository Contents :
 1) Datasets Folder: Contains the link of the kaggle kernel from where the datasets can be downloaded.
 2) Demo Images folder : Contains screenshots of output demo of my project.
-3) Project Info : This folder contains a ppt about the project.
-4) Project Demonstration.zip : This zip folder contains a video demonstrating the project output. To view it you need to download the zip folder.
+3) Project Info : Contains a ppt about the project.
+4) Project Demonstration.zip : Contains a video demonstrating the project output. To view it you need to download the zip folder.
 5) Road Traffic Sign Recognition.ipynb : This notebook contains the model architechture and the code for predicting the new data.
 6) interface.py : This python file contains the tkinter program for deployment of the project on local host to provide a GUI to the user.
 7) model_RTSR.h5 : This heirarchical data file contains the stored predicitions for the 'test.csv' dataset which is further used to load the model in 'interface.py'
